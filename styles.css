@@ -1,0 +1,95 @@
+ .navbar{
+            background-color: black;
+            border-radius: 30px;
+            
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:left;
+            list-style: none; 
+            margin: 13px 20px;
+            
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+        .navbar li a:hover{
+            color: red
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+        .navbar input{
+            border: 2px solid black;
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+          body {
+  background: rgba(0, 0, 0, 0.7)url('https://yellowslate.com/images/schools/gallery/1524727833.902.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: all;
+  }
+  body, html {
+  height: 100%;
+}
+
+
+.bg-image {
+  background-image: url("https://yellowslate.com/images/schools/gallery/1524727833.902.jpg");
+
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float:left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container{
+        width: 90%;
+        padding: 20px;
+        margin: 100px auto;  
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+
+    .box{
+        width: 250px;
+        margin: 0 10px;
+        box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+        transition: 1s;
+
+    }
+    .box img{
+        display: block;
+        width:100%;
+        border-radius: 5px;
+    }
+    .box:hover{
+        transform: scale(1.3);
+        z-index: 2;
+    }
